@@ -1,0 +1,121 @@
+<!--  
+	project/webproject.html
+	Dan Lapp
+	COSC 2P89
+	Fall 2013
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" href="css/Style.css" type="text/css" />
+	<link rel="stylesheet" href="css/tinydropdown.css" type="text/css" />
+		
+	<!-- google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'/>
+
+	<title>Web Project</title>
+</head>
+<body>
+
+<div class="outerContainer">
+		
+	<div class="titleContainer">
+	<p>
+		<span class="titleHeader">Dan Lapp</span><br/>
+		<span class="titleSubheader">Personal Homepage &amp; Software Experience</span>
+	</p>
+	</div>
+	
+	<div class="menuContainer">	
+		<div class="nav">
+			<ul id="menu" class="menu">
+				<li class="nodiv"><a href="index.html">About Me</a></li>
+				<li><a href="projects.html">Projects</a>
+					<ul>
+						<li><a href="opengl.html">OpenGL</a>
+							<ul>
+								<li><a href="opengl/pool.html">3D Pool</a></li>
+								<li><a href="opengl/pfountain.html">Particle Fountain</a></li>
+								<li><a href="opengl/gameoflife.html">Game of Life</a></li>
+							</ul>
+						</li>
+						<li><a href="brickbreaker.html">Android</a>
+							<ul>
+								<li><a href="brickbreaker.html">Brick Breaker</a></li>
+							</ul>
+						</li>  
+							<li><a href="webproject.html">Web</a>
+							<ul>
+								<li><a href="webproject.html">Final Project</a></li>
+							</ul>
+						</li>     						
+					</ul>
+				</li>
+				<li class="nodiv"><a href="resume.html">Resume</a></li>
+				<li class="nodiv"><a href="contact.html">Contact</a></li>
+            </ul>
+		</div>
+	</div>
+	
+	<div class="contentContainer">
+	<p>
+	<h1>Web Project</h1>
+		<div id="content">
+		<p>
+		For my final project in Brock's Web Development course, I created this website. I have wanted to make a site to
+		host my software projects for a while, and this was the perfect excuse to actually do it. The assignment was to
+		create a website of your own choosing and use HTML, CSS, Javascript and PHP.
+		</p>
+		</div>
+		
+		<div id="content">
+		<p>
+		The main menu is a Javascript dropdown menu that uses ordered lists and CSS called 
+		<a href="http://www.scriptiny.com/2011/04/javascript-dropdown-menu/" target="blank">Tiny Dropdown Menu</a>. 
+		I liked this menu because it was simple and functional, and could be styled easily. The contact page has a
+		simple form designed to send an email. It uses Javascript to verify that the fields are filled in correctly, 
+		and uses PHP to send the mail to my inbox. 
+		</p>
+		</div>
+		
+		<div id="content">
+		<p>
+		You can view the source to any of the HTML pages on the site, and below is a link to the main style sheet
+		for the site.
+		</p>
+		</div>
+		
+		<p>
+			<div id="content">
+			<h2>Files</h2>
+			<p/>
+				<li>
+					<a href="css/Style.css">Main CSS sheet</a>
+				</li>
+			</div>	
+		</p>
+			
+		</p>	
+	</div>
+	
+	<div class="footerContainer">
+		| <a href ="index.html">About Me</a> | 
+		<a href ="projects.html">All Projects</a> | 
+		<a href ="opengl.html">OpenGL Projects</a> | 
+		<a href ="brickbreaker.html">Android Projects</a> | 
+		<a href ="webproject.html">Web Project</a> | 
+		<a href ="resume.html">Resume</a> | 
+		<a href ="contact.html">Contact</a> | 
+	</div>
+	
+</div>
+
+<!-- code used from    http://www.scriptiny.com/2011/04/javascript-dropdown-menu/ -->
+<script type="text/javascript" src="javascript/tinydropdown-min.js"></script>
+<script type="text/javascript">
+var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+
+</body>
+</html>

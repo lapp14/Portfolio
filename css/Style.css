@@ -1,0 +1,124 @@
+body{
+	background: #eff7f9; /* off white */
+	color: #eff7f9; /* off white */
+	font-family: Verdana, Arial;
+}
+
+p{
+	padding-bottom: 15px;
+}
+
+h1{
+	color: #f17b00; /* orange */
+	text-shadow: 2px 2px #000000;
+	font-size: 1.5em;
+}
+
+h2{
+	color: #ffd859; /* golden yellow */
+	text-shadow: 2px 2px #000000;
+	font-size: 1.2em;
+}
+
+a{
+	color: #f17b00; /* orange */
+}
+
+a:hover{
+	color: #ffd859; /* golden yellow */
+}
+
+li{
+	color: black;
+}
+
+img {
+    margin: auto;
+    padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+div.outerContainer{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background: #363c3f; /* background grey */
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;	
+}
+
+div.titleContainer{
+	/* Gradient styles from  
+	 * http://www.colorzilla.com/gradient-editor/ 
+	 */
+	background: #f17b00; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f17b00 10%, #e59500 79%, #e86400 93%, #f17b00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#f17b00), color-stop(79%,#e59500), color-stop(93%,#e86400), color-stop(100%,#f17b00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f17b00 10%,#e59500 79%,#e86400 93%,#f17b00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f17b00 10%,#e59500 79%,#e86400 93%,#f17b00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f17b00 10%,#e59500 79%,#e86400 93%,#f17b00 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f17b00 10%,#e59500 79%,#e86400 93%,#f17b00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f17b00', endColorstr='#f17b00',GradientType=0 ); /* IE6-9 */
+
+	padding: 3%;
+}
+
+div.menuContainer{
+
+}
+
+div.contentContainer{
+	min-height: 550px;
+	padding: 2%;
+}
+
+div.footerContainer{
+	color: #eff7f9;  /* off white */
+	text-align: center;
+	font-size: 0.75em;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #ffd859;  /* golden yellow */
+	padding: 8%;
+	background: #00405b; /* dark blue (menu) */
+}
+
+#content{
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: black;*/
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 2%;
+}
+
+#gallery{
+	padding: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#text{
+	color: #eff7f9; /* off white */
+}
+
+#button{
+	padding: 7px;
+	width: 150px;
+}
+
+span.titleHeader{
+	font-size: 2.2em;
+	font-family: 'News Cycle', sans-serif;
+	color: black;
+}
+
+span.titleSubheader{
+	font-family: 'News Cycle', sans-serif;
+	color: black;
+}
+
+
