@@ -4,6 +4,10 @@ body{
 	font-family: Verdana, Arial;
 }
 
+ul li{
+	color: #eff7f9; /* off white */
+}
+
 p{
 	padding-bottom: 15px;
 }

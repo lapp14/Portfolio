@@ -1,5 +1,5 @@
 <!--  
-	project/contact.html
+	project/contact.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -28,14 +28,14 @@
 	</div>
 	
 	<?php
-		include("menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer">
 	<p>
 	<h1>Email Me</h1>	
 		<div id="content">
-			<form name="sendEmail" action="sendMail.php" onsubmit="return validateForm();" method="post">
+			<form name="sendEmail" action="/php/sendMail.php" onsubmit="return validateForm();" method="post">
 				<span>From Email: <input type="text" name="from"/>*</span>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<span>Subject: <input type="text" name="subject"/></span><br/>&nbsp;<br/>
@@ -51,7 +51,7 @@
 	</div>
 	
 	<?php
-		include("footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>

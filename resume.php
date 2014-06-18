@@ -1,5 +1,5 @@
 <!--  
-	project/resume.html
+	/resume.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -29,7 +29,7 @@
 	</div>
 	
 	<?php
-		include("menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer" style="height: 800px; margin-bottom:25px">
@@ -40,7 +40,7 @@
 	</div>
 	
 	<?php
-		include("footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>

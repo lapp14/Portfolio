@@ -1,5 +1,5 @@
 <!--  
-	project/brickbreaker.html
+	/projects/android/brickbreaker.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -8,8 +8,8 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<link rel="stylesheet" href="css/Style.css" type="text/css" />
-	<link rel="stylesheet" href="css/tinydropdown.css" type="text/css" />
+	<link rel="stylesheet" href="/css/Style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/tinydropdown.css" type="text/css" />
 		
 	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'/>
@@ -28,7 +28,7 @@
 	</div>
 	
 	<?php
-		include("menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer">
@@ -51,9 +51,9 @@
 		</div>
 
 		<div id="gallery">
-		<a href="images/brick_main.png"><img src="images/brick_main.png" width="175" height="202" alt="Main Screen"/></a>
-		<a href="images/brick1.png"><img src="images/brick1.png" width="175" height="202" alt="Brick Breaker"/></a>
-		<a href="images/brick2.png"><img src="images/brick2.png" width="175" height="202" alt="Brick Breaker"/></a>
+		<a href="/images/brick_main.png"><img src="/images/brick_main.png" width="175" height="202" alt="Main Screen"/></a>
+		<a href="/images/brick1.png"><img src="/images/brick1.png" width="175" height="202" alt="Brick Breaker"/></a>
+		<a href="/images/brick2.png"><img src="/images/brick2.png" width="175" height="202" alt="Brick Breaker"/></a>
 		</div>
 			
 		<div id="content">
@@ -76,7 +76,7 @@
 		</div>
 		
 		<div id="gallery">	
-		<a href="images/brick_gameover.png"><img src="images/brick_gameover.png" width="175" height="202" alt="Game Over Screen"/></a>
+		<a href="/images/brick_gameover.png"><img src="/images/brick_gameover.png" width="175" height="202" alt="Game Over Screen"/></a>
 		</div>
 		
 		<div id="content">
@@ -94,7 +94,7 @@
 					<a href="https://github.com/MattHills/BrickBreaker">Source Code</a><span id="text"> (GitHub)</span>
 				</li>
 				<li>
-					<a href="files/3V97 Presentation.pdf">Sensor Presentation</a><span id="text"> (.pdf)</span>
+					<a href="/files/3V97 Presentation.pdf">Sensor Presentation</a><span id="text"> (.pdf)</span>
 				</li>
 			</ul>
 			</div>	
@@ -103,13 +103,13 @@
 	</div>
 	
 	<?php
-		include("footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>
 
 <!-- code used from    http://www.scriptiny.com/2011/04/javascript-dropdown-menu/ -->
-<script type="text/javascript" src="javascript/tinydropdown-min.js"></script>
+<script type="text/javascript" src="/javascript/tinydropdown-min.js"></script>
 <script type="text/javascript">
 var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
 </script>

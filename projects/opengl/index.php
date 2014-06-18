@@ -1,5 +1,5 @@
 <!--  
-	project/opengl.html
+	/projectsop/opengl/index.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -8,8 +8,8 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<link rel="stylesheet" href="css/Style.css" type="text/css" />
-	<link rel="stylesheet" href="css/tinydropdown.css" type="text/css" />
+	<link rel="stylesheet" href="/css/Style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/tinydropdown.css" type="text/css" />
 		
 	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'/>
@@ -28,7 +28,7 @@
 	</div>
 	
 	<?php
-		include("menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer">
@@ -43,9 +43,9 @@
 		
 			<div id="content">	
 			<ul>
-				<li><a href="opengl/pool.php">3D Pool</a></li>
-				<li><a href="opengl/pfountain.php">Particle Fountain</a></li>
-				<li><a href="opengl/gameoflife.php">Conway's Game of Life</a></li>
+				<li><a href="/projects/opengl/pool.php">3D Pool</a></li>
+				<li><a href="/projects/opengl/pfountain.php">Particle Fountain</a></li>
+				<li><a href="/projects/opengl/gameoflife.php">Conway's Game of Life</a></li>
 			</ul>			
 			</div>
 		</div>
@@ -53,13 +53,13 @@
 	</div>
 	
 	<?php
-		include("footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>
 
 <!-- code used from    http://www.scriptiny.com/2011/04/javascript-dropdown-menu/ -->
-<script type="text/javascript" src="javascript/tinydropdown-min.js"></script>
+<script type="text/javascript" src="/javascript/tinydropdown-min.js"></script>
 <script type="text/javascript">
 var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
 </script>

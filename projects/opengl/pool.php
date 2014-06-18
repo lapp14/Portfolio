@@ -1,5 +1,5 @@
 <!--  
-	project/pool.html
+	/projects/opengl/pool.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -8,8 +8,8 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<link rel="stylesheet" href="../css/Style.css" type="text/css" />
-	<link rel="stylesheet" href="../css/tinydropdown.css" type="text/css" />
+	<link rel="stylesheet" href="/css/Style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/tinydropdown.css" type="text/css" />
 		
 	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'/>
@@ -28,7 +28,7 @@
 	</div>
 	
 	<?php
-		include("../menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer">
@@ -44,9 +44,9 @@
 		</p>
 
 		<div id="gallery">
-		<a href="../images/pool1.png"><img src="../images/pool1.png" height="256" width="328" alt="gl-billiards"/></a>
-		<a href="../images/pool2.png"><img src="../images/pool2.png" height="256" width="328" alt="gl-billiards"/></a>		
-		<a href="../images/pool3.png"><img src="../images/pool3.png" height="256" width="328" alt="gl-billiards"/></a>		
+		<a href="/images/pool1.png"><img src="/images/pool1.png" height="256" width="328" alt="gl-billiards"/></a>
+		<a href="/images/pool2.png"><img src="/images/pool2.png" height="256" width="328" alt="gl-billiards"/></a>		
+		<a href="/images/pool3.png"><img src="/images/pool3.png" height="256" width="328" alt="gl-billiards"/></a>		
 		</div>
 		
 		<p>
@@ -79,13 +79,13 @@
 			<p/>
 				<ul>
 				<li>
-					<a href="../files/gl-billiards.zip">gl-billiards.zip</a> <span id="text">(release)</span>
+					<a href="/files/gl-billiards.zip">gl-billiards.zip</a> <span id="text">(release)</span>
 				</li>
 				<li>
 					<a href="https://github.com/twentylemon/gl-billiards" target="blank">Source Code</a>
 				</li>
 				<li>
-					<a href="../files/gl-billiards-readme.pdf">Readme</a><span id="text">: 
+					<a href="/files/gl-billiards-readme.pdf">Readme</a><span id="text">: 
 					describes the project in greater detail, also contains user manual</span>
 				</li>
 				</ul>
@@ -97,13 +97,13 @@
 	</div>
 	
 	<?php
-		include("../footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>
 
 <!-- code used from    http://www.scriptiny.com/2011/04/javascript-dropdown-menu/ -->
-<script type="text/javascript" src="../javascript/tinydropdown-min.js"></script>
+<script type="text/javascript" src="/javascript/tinydropdown-min.js"></script>
 <script type="text/javascript">
 var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
 </script>

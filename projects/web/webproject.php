@@ -1,5 +1,5 @@
 <!--  
-	project/webproject.html
+	projects/web/webproject.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -8,8 +8,8 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<link rel="stylesheet" href="css/Style.css" type="text/css" />
-	<link rel="stylesheet" href="css/tinydropdown.css" type="text/css" />
+	<link rel="stylesheet" href="/css/Style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/tinydropdown.css" type="text/css" />
 		
 	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'/>
@@ -28,7 +28,7 @@
 	</div>
 	
 	<?php
-		include("menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer">
@@ -48,7 +48,9 @@
 		<a href="http://www.scriptiny.com/2011/04/javascript-dropdown-menu/" target="blank">Tiny Dropdown Menu</a>. 
 		I liked this menu because it was simple and functional, and could be styled easily. The contact page has a
 		simple form designed to send an email. It uses Javascript to verify that the fields are filled in correctly, 
-		and uses PHP to send the mail to my inbox. 
+		and uses PHP to send the mail to my inbox. PHP was also used to create a common menu file for both the main menu
+		and the footer menu. This enables each page to include the files, and the menus can be changed by editing a
+		single file.
 		</p>
 		</div>
 		
@@ -64,7 +66,7 @@
 			<h2>Files</h2>
 			<p/>
 				<li>
-					<a href="css/Style.css">Main CSS sheet</a>
+					<a href="/css/Style.css">Main CSS sheet</a>
 				</li>
 			</div>	
 		</p>
@@ -73,13 +75,13 @@
 	</div>
 	
 	<?php
-		include("footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>
 
 <!-- code used from    http://www.scriptiny.com/2011/04/javascript-dropdown-menu/ -->
-<script type="text/javascript" src="javascript/tinydropdown-min.js"></script>
+<script type="text/javascript" src="/javascript/tinydropdown-min.js"></script>
 <script type="text/javascript">
 var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
 </script>

@@ -1,5 +1,5 @@
 <!--  
-	project/index.html
+	/index.php
 	Dan Lapp
 	COSC 2P89
 	Fall 2013
@@ -28,7 +28,7 @@
 	</div>
 	
 	<?php
-		include("menu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/menu.php");
 	?>
 	
 	<div class="contentContainer">
@@ -44,8 +44,12 @@
 	<p>
 	<h2>Education</h2>	
 		<div id="content">
-		BSc Computer Science (Honors) from
-		<a href="http://www.cosc.brocku.ca">Brock University</a> in St. Catharines, Ontario (2014) 
+			<ul>
+				<li>
+					BSc Computer Science (Honors) from
+					<a href="http://www.cosc.brocku.ca">Brock University</a> in St. Catharines, Ontario (2014) 
+				</li>
+			</ul>
 		</div>
 	</p>
 	
@@ -61,7 +65,7 @@
 	</div>
 	
 	<?php
-		include("footerMenu.php");
+		include($_SERVER['DOCUMENT_ROOT'] . "/php/footerMenu.php");
 	?>
 	
 </div>
