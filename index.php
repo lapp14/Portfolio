@@ -42,6 +42,12 @@
 					BSc Computer Science (Honors) from
 					<a href="http://www.cosc.brocku.ca">Brock University</a> in St. Catharines, Ontario (2014) 
 				</li>
+				<li>
+					Have taken several web related classes at Brock including Databases (SQL), Web Development, Human Computer Interaction (UI design)
+				</li>
+				<li>
+					Have taken many classes focused on software engineering such as Advanced Data Structures, Advanced Object Orientation, Software Engineering, Design Documentation and Prototyping, Procedural Programming, and Algorithms
+				</li>
 			</ul>
 		</div>
 	</p>
@@ -50,9 +56,9 @@
 	<h2>Interests</h2>	
 		<div id="content">
 		My main interests in terms of computer science are software applications. I enjoy writing 
-		user applications and Object-Oriented programming. I am most experienced with Java and C++, however I am
-		familiar with C# and logic programming with Prolog. I also enjoy making websites, and have experience with
-		HTML, CSS, Javascript, PHP, and SQL. 
+		user applications and Object-Oriented programming. I am most experienced with Java and C/C++, however I am
+		familiar with C#, Python and logic programming with Prolog. I also enjoy making websites, and have experience with
+		HTML, CSS, Javascript, PHP, and SQL.
 		</div>
 	</p>
 	</div>

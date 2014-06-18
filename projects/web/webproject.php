@@ -31,7 +31,9 @@
 		<p>
 		For my final project in Brock's Web Development course, I created this website. I have wanted to make a site to
 		host my software projects for a while, and this was the perfect excuse to actually do it. The assignment was to
-		create a website of your own choosing and use HTML, CSS, Javascript and PHP.
+		create a website of your own choosing and use HTML, CSS, Javascript and PHP. I wanted to stress cross browser 
+		compatability with this site and get used to some of the industry best practices for front end development. This site
+		is compatable with Mozilla, Webkit and IE7+ browsers.
 		</p>
 		</div>
 		

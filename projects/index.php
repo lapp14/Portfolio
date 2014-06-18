@@ -54,6 +54,20 @@
 			</p>
 			
 			<p>
+			<h2>UI Design</h2>
+				<div id="content">	
+				This is the project I made for my Human Computer Interaction class. It was focused on user interface design
+				and best practices. The assignment was to create a front end, and administrative UI for an internet radio station.
+				We had to create our own interface, and evaluate other student's interfaces as well.
+					<div id="content">	
+					<ul>
+						<li><a href="/projects/HCI/rock.php">Rock Radio</a></li>
+					</ul>			
+					</div>
+				</div>
+			</p>
+			
+			<p>
 			<h2>Android</h2>
 				<div id="content">	
 				During the course of Brock's Mobile Development course COSC 3V97, we were to develop an Android
