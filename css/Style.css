@@ -8,6 +8,11 @@ ul li{
 	color: #eff7f9; /* off white */
 }
 
+ul li.liSpaced{
+	color: #eff7f9; /* off white */
+	margin-bottom: 5px;
+}
+
 p{
 	padding-bottom: 15px;
 }

@@ -38,14 +38,14 @@
 	<h2>Education</h2>	
 		<div id="content">
 			<ul>
-				<li>
+				<li class="liSpaced">
 					BSc Computer Science (Honors) from
 					<a href="http://www.cosc.brocku.ca">Brock University</a> in St. Catharines, Ontario (2014) 
 				</li>
-				<li>
+				<li class="liSpaced">
 					Have taken several web related classes at Brock including Databases (SQL), Web Development, Human Computer Interaction (UI design)
 				</li>
-				<li>
+				<li class="liSpaced">
 					Have taken many classes focused on software engineering such as Advanced Data Structures, Advanced Object Orientation, Software Engineering, Design Documentation and Prototyping, Procedural Programming, and Algorithms
 				</li>
 			</ul>
