@@ -28,7 +28,7 @@
 					</li>     						
 				</ul>
 			</li>
-			<li class="nodiv"><a href="/resume.php">Resume</a></li>
+			<!--<li class="nodiv"><a href="/resume.php">Resume</a></li>-->
 			<li class="nodiv"><a href="/contact.php">Contact</a></li>
 		</ul>
 	</div>
